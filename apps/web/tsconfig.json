@@ -9,9 +9,8 @@
     "strictNullChecks": true,
     "paths": {
       "@/*": ["./*"],
-      "@prisma/client": ["@repo/db/client/*"]
-    },
-    "baseUrl": "."
+      "@prisma/client": ["./@repo/db/client/*"]
+    }
   },
   "include": [
     "**/*.ts",
